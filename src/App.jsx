@@ -4,8 +4,8 @@ import Card from './components/Header'
 import Card1 from './components/Section'
 import Card2 from './components/Footer'
 import Oybek from './components/Oybek'
-import img from '../src/assets/1.png'
-import img1 from '../src/assets/2.png'
+import img from './assets/1.png'
+import img1 from './assets/2.png'
 
 const App = () => {
   return (
