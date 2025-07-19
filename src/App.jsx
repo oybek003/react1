@@ -19,18 +19,18 @@ const App = () => {
           <button className='w-[150px] h-[30px] bg-blue-500 text-white mt-[42px] ml-[-150px]'>оставить заявку</button>
         </div>
       </div>      
-      <hr className='text-black w-[1200px] ml-[80px]'/>
-      <nav className='mb-6 flex gap-40 ml-[140px]'>
+      <hr className='text-black w-[1400px] ml-[80px]'/>
+      <nav className='mb-6 flex gap-40 items-center justify-around'>
         <Link to='/' className='text-black hover:underline'>о бренде</Link>
         <Link to='/about' className='text-black hover:underline'>продукции</Link>
         <Link to='/about1' className='text-black hovebr:underline'>преимущества</Link>
         <Link to='/about2' className='text-black hovebr:underline'>открыть клуб</Link>
-        <Link to='/about3' className='text-black hovebr:underline'>контакты</Link>
       </nav>
 
       <Routes>
         <Route path='/' element={<Card />} />
         <Route path='/about' element={<Card1 />} />
+        <Route path='/about2'element={<Oybek/>} />
         <Route path='*' element={<Card2 />} />
       </Routes>
     </div>
