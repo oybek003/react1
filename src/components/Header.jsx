@@ -116,7 +116,22 @@ const Header = () => {
           </div>
 
         </div>
-        <img src={img5} alt="" className='mr-[-200px]'/>        
+        <img src={img5} alt="" className='mr-[-200px]  '/>        
+      </div>
+
+      <div className='mt-[50px]'>
+        <img src={img3} alt="" className='w-[1250px] h-[700px] ml-[-240px] absolute'/>
+        <div className='w-[500px] h-[430px] bg-white text-black relative ml-[200px] mt-[200px] p-6 flex-col'>
+          <h2 className='text-start text-2xl font-medium'>Получите эксклюзивное <br /> предложение на тренажеры <br /> TRUE FITNESS</h2>
+          <p className='text-start'>Мы будем рады проконсультировать Вас и помочь с <br /> подбором оборудования</p>
+          <div className='flex flex-col gap-[10px] mt-[20px] mb-[20px] '>
+          <input type="text" placeholder='имя' className='border-2xl border-black w-[450px] h-[20px]'/>
+          <input type="text" placeholder='EMail' className='border-2xl border-black w-[450px] h-[20px]'/>
+          <input type="number" name="" id="" placeholder='+998 (99)-999-99-99' className='border-2xl border-black w-[450px] h-[20px]'/>            
+          </div>
+          <button className='w-[450px] h-[30px] bg-green-500 text-white'>ОТПРАВИТЬ</button>
+          <p className='text-start'>Нажимая на кнопку, вы даете согласие на обработку <br /> персональных данных и соглашаетесь c политикой <br /> конфиденциальности  </p>
+        </div>
       </div>
       
     </div>
