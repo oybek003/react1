@@ -2,6 +2,9 @@ import React from 'react';
 import img from '../assets/3.png';
 import img1 from '../assets/04.png';
 import img2 from '../assets/4.png';
+import img3 from '../assets/5.png';
+import img4 from '../assets/6.png';
+import img5 from '../assets/7.png';
 
 const Header = () => {
   return (
@@ -10,7 +13,7 @@ const Header = () => {
       {/* Первый блок с кнопкой и заголовком */}
       <div className="relative w-full max-w-[1351px]">
         <img src={img} alt="" className="absolute top-0 left-1/2 transform -translate-x-1/2 z-0 w-full max-w-[1351px]" />
-        <div className="relative z-10 mt-[280px]">
+        <div className="relativ z-10 mt-[280px]">
           <button className="shadow-2xl shadow-cyan-50 w-[70px] h-[70px] rounded-full bg-blue-500 text-white text-4xl">
             ▷
           </button>
@@ -61,6 +64,59 @@ const Header = () => {
             возможностей
           </p>
         </div>
+      </div>
+
+      <div className='mt-[100px] flex justify-around w-full max-w-[1351px]'>
+        <div>
+          <h1 className='font-bold text-2xl text-start text-blue-500 ml-[-200px]'>Мы предлагаем <br /> полный комплекс услуг</h1>
+          <div className=''>
+
+            <div className='flex'>
+          <div className='mt-[50px] mr-[50px]'>
+            <img src={img4} alt="" className=''/>
+            <h2 className='font-medium mt-[10px] mb-[10px]'>КОНСАЛТИНГ</h2>
+            <p className='text-start '>Помогаем в разработке <br /> концепции клуба, <br /> зонировании, оснащении и <br /> расчете финансовых <br /> показателей.</p>
+          </div>
+
+          <div className='mt-[50px]'>
+            <img src={img4} alt="" className=''/>
+            <h2 className='font-medium mt-[10px] mb-[10px]'>КОНСАЛТИНГ</h2>
+            <p className='text-start '>Помогаем в разработке <br /> концепции клуба, <br /> зонировании, оснащении и <br /> расчете финансовых <br /> показателей.</p>
+          </div>              
+            </div>
+
+          <div className='flex'>
+          <div className='mt-[50px] mr-[50px]'>
+            <img src={img4} alt="" className=''/>
+            <h2 className='font-medium mt-[10px] mb-[10px]'>КОНСАЛТИНГ</h2>
+            <p className='text-start '>Помогаем в разработке <br /> концепции клуба, <br /> зонировании, оснащении и <br /> расчете финансовых <br /> показателей.</p>
+          </div>
+
+          <div className='mt-[50px]'>
+            <img src={img4} alt="" className=''/>
+            <h2 className='font-medium mt-[10px] mb-[10px]'>КОНСАЛТИНГ</h2>
+            <p className='text-start '>Помогаем в разработке <br /> концепции клуба, <br /> зонировании, оснащении и <br /> расчете финансовых <br /> показателей.</p>
+          </div>            
+          </div>
+
+          <div className='flex'>
+          <div className='mt-[50px] mr-[50px]'>
+            <img src={img4} alt="" className=''/>
+            <h2 className='font-medium mt-[10px] mb-[10px]'>КОНСАЛТИНГ</h2>
+            <p className='text-start '>Помогаем в разработке <br /> концепции клуба, <br /> зонировании, оснащении и <br /> расчете финансовых <br /> показателей.</p>
+          </div>
+
+          <div className='mt-[50px]'>
+            <img src={img4} alt="" className=''/>
+            <h2 className='font-medium mt-[10px] mb-[10px]'>КОНСАЛТИНГ</h2>
+            <p className='text-start '>Помогаем в разработке <br /> концепции клуба, <br /> зонировании, оснащении и <br /> расчете финансовых <br /> показателей.</p>
+          </div>             
+          </div>
+
+          </div>
+
+        </div>
+        <img src={img5} alt="" className='mr-[-200px]'/>        
       </div>
       
     </div>
